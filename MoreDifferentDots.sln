@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreDifferentDots", "MoreDifferentDots\MoreDifferentDots.csproj", "{480EADF9-8DEB-4BC4-911B-41A283EA6740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{480EADF9-8DEB-4BC4-911B-41A283EA6740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480EADF9-8DEB-4BC4-911B-41A283EA6740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480EADF9-8DEB-4BC4-911B-41A283EA6740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480EADF9-8DEB-4BC4-911B-41A283EA6740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF8BBC28-37B5-4F35-94AD-DFEE35060A80}
+	EndGlobalSection
+EndGlobal
