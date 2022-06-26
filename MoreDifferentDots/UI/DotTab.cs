@@ -21,6 +21,17 @@ namespace MoreDifferentDots.UI
 		[UIComponent("modal")]
 		private readonly RectTransform modalTransform = null!;
 
+		[UIValue("dots-enabled")]
+		public bool DotsEnabled
+        {
+			get => config.DotsEnabled;
+			set
+			{
+				config.DotsEnabled = value;
+				PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(DotsEnabled)));
+			}
+		}
+
 		[UIValue("dot-color")]
 		public Colour DotColorValue
 		{

@@ -61,25 +61,6 @@ namespace MoreDifferentDots.Objects
             {
                 byebye();
             }
-
-            //_cutout.SetCutout(Mathf.Abs(_noteController.noteMovement.distanceToPlayer - _noteController.jumpStartPos.z));
-
-
-
-            /*var _startPos = _jump.GetField<Vector3, NoteJump>("_startPos");
-            var _startVerticalVelocity = _jump.GetField<float, NoteJump>("_startVerticalVelocity");
-            var _gravity = _jump.GetField<float, NoteJump>("_gravity");
-            var _beatTime = _jump.GetField<float, NoteJump>("_beatTime");
-            var _jumpDuration = _jump.GetField<float, NoteJump>("_jumpDuration");
-            var _atsc = _jump.GetField<IAudioTimeSource, NoteJump>("_audioTimeSyncController");
-
-            float songTime = _atsc.songTime;
-            float num = songTime - (_beatTime - _jumpDuration * 0.5f);
-            float num2 = num / _jumpDuration;
-
-            _dot.transform.position = new Vector3(_noteController.noteMovement.beatPos.x,
-                _startPos.y + _startVerticalVelocity * num - _gravity * num * num * 0.5f + 0.25f,
-                _noteController.noteMovement.beatPos.z);*/
         }
 
         public void byebye()
